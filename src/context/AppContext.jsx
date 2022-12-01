@@ -31,7 +31,7 @@ export function AppContextProvider({ children }) {
           symbol,
           price: current_price,
           priceChange: price_change_24h,
-          PriceChangeVolume: price_change_percentage_24h,
+          priceChangeVolume: price_change_percentage_24h,
         };
         return newItem;
       });
